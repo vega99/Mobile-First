@@ -217,5 +217,177 @@ main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
 
+.currency-table--date{
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+    
+}
+.currency-table--date p{
+    font-size: 1.2rem;
+    line-height: 1.5rem ;
+    color: var(--warm-black);
+    font-weight: 300;
+}
+     /* tabla doooooooooooooooooooos */
+
+
+.main-currency-table2{
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+
+.main-currency-table2 .currency-table--title2{
+    margin-bottom: 14px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--secondary-blue);
+    
+}
+
+.currency-table--container2{
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin:0 auto;
+}
+
+.currency-table--container2 table{
+    width: 100%;
+    height: 100%;
+}
+.currency-table--container2 td{
+    width: 50%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: var(--grey);
+    background-color: var(--just-white);
+}
+
+.table__top-left2{
+    border-radius: 15px 0 0 0;
+}
+.table__top-right2{
+    border-radius: 0 15px 0 0;
+}
+
+.table__bottom-left2{
+    border-radius: 0 0 0 15px;
+}
+.table__bottom-right2{
+    border-radius: 0 0 15px 0 ;
+}
+.currency-table--container2 .table__right2{
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    color: #757575;
+}
+
+
+.currency-table--date2{
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-blue);
+    border-radius: 8px;
+    
+}
+.currency-table--date2 p{
+    font-size: 1.2rem;
+    line-height: 1.5rem ;
+    color: var(--warm-black);
+    font-weight: 300;
+}
+
+.main-product-detail{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color:  var(--warm-black);
+}
+
+.product-detail--batata-logo{
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    background-image: url('./Assets/Imgs/Group16.png');
+    left: calc(50% - 20px);
+    top: -10px;
+}
+
+.product-detail-title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.product-detail-title h2{
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);    
+}
+
+.product-detail-title p{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500px;
+    line-height: 1.8rem;
+    color: #808080;
+}
+.Product-detail--card{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.Product-detail--card .clock{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./Assets/icons/clock.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Product-detail--card .product--card-title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+.product--card-body{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
 }
