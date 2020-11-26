@@ -391,3 +391,34 @@ main{
     line-height: 1.8rem;
     color: #808080;
 }
+
+.main-product-detail article:nth-child(2) .aye{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./Assets/icons/eye.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-product-detail article:nth-child(3) .money{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./Assets/icons/dollar-sign.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-product-detail article:nth-child(4) .check{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./Assets/icons/check-circle\ 1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
