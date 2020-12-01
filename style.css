@@ -471,7 +471,7 @@ main{
     color: #757575;
 }
 .plans-container-slider{
-    display: flex;
+    display: flex;   
     height: 312px;
     overflow-x: scroll;
     overscroll-behavior-x:contain ;
@@ -491,6 +491,8 @@ main{
     border-radius: 14px;
     box-shadow: 0 4px 8px rgba(89, 73,30, 0.16);
 }
+
+
 
 .plans-container--card .Recomendado{
     position: absolute;
